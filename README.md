@@ -1,10 +1,10 @@
-# work in progress  
-- [] currently usable  
-- [x] non-functioning  
-
 # PulseJS
 Simple script to add pulse background effect to any element upon click.  
 Pure vanilla javascript, no CSS changes needed or to add anything else. 
+
+### work in progress  
+- [ ]  currently usable  
+- [x] non-functioning  
 
 ## Usage
 ### HTML
