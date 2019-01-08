@@ -1,5 +1,4 @@
-# PulseJS
-Simple script to add pulse background effect to any element upon click.  
+# PulseJS 
 Pure vanilla javascript, no CSS changes needed or to add anything else. 
 
 ### work in progress  
