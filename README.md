@@ -1,3 +1,7 @@
+-[]work in progress
+-[]currently usable
+-[x]non-functioning
+
 # PulseJS
 Simple script to add pulse background effect to any element upon click.  
 Pure vanilla javascript, no CSS changes needed or to add anything else. 
@@ -6,4 +10,4 @@ Pure vanilla javascript, no CSS changes needed or to add anything else.
 ### HTML
 Add the 'pulse' class to any HTML element to enable a CSS animation to fire upon user click. 
 ### Javascript
-
+To set the 
