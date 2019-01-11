@@ -17,3 +17,7 @@ To pulse any element in javascript:
 ```Javascript
 pulse.animateElement(element); //pulse any element no need to add 'pulse' class in HTML
 ```
+To pulse any element, for a one off custom duration in milliseconds:
+```Javascript
+pulse.animateElement(element, 2000); //pulse this element for 2s
+```
