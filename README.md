@@ -13,3 +13,7 @@ To set the default animation time in milliseconds:
 ```Javascript
 pulse.settings.animationTime = 250 //accepts number, not string. don't do: '.25s' or '250ms'.
 ```
+To pulse any element in javascript:
+```Javascript
+pulse.animateElement(element);
+```
