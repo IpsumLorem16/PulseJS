@@ -15,5 +15,5 @@ pulse.settings.animationTime = 250 //accepts number, not string. don't do: '.25s
 ```
 To pulse any element in javascript:
 ```Javascript
-pulse.animateElement(element);
+pulse.animateElement(element); //pulse any element no need to add 'pulse' class in HTML
 ```
