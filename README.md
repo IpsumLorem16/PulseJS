@@ -9,7 +9,7 @@ Pure vanilla javascript, no CSS changes needed or to add anything else.
 ### HTML
 Add the 'pulse' class to any HTML element to enable a CSS animation to fire upon user click. 
 ### Javascript
-To set the default pulse time: 
+To set the default pulse time in ms: 
 ```Javascript
-pulse.settings.animationTime = 250
+pulse.settings.animationTime = 250 //accepts number, not string. don't do: '.25s' or '250ms'.
 ```
