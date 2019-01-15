@@ -21,3 +21,6 @@ To pulse any element, for a one off custom duration in milliseconds:
 ```Javascript
 pulse.animateElement(element, 2000); //pulse this element for 2s
 ```
+Cancel pulse on a currently animated element:
+```Javascript
+pulse.cancelAnimation(element); //
