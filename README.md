@@ -23,4 +23,5 @@ pulse.animateElement(element, 2000); //pulse this element for 2s
 ```
 Cancel pulse on a currently animated element:
 ```Javascript
-pulse.cancelAnimation(element); //
+pulse.cancelAnimation(element); //only cancels current animation + callback passed in parameters. does not cancel promise yet..
+```
