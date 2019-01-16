@@ -15,23 +15,23 @@ pulse.settings.animationTime = 250 //accepts number, not string. don't do: '.25s
 ```
 To pulse any element in javascript:
 ```Javascript
-pulse.animateElement(element); //pulse any element no need to add 'pulse' class in HTML
+pulse.animateElement(element); //pulse any element no need to add 'pulse' class in HTML.
 ```
 To pulse any element, for a one off custom duration in milliseconds:
 ```Javascript
-pulse.animateElement(element, 2000); //pulse this element for 2s
+pulse.animateElement(element, 2000); //pulse this element for 2s.
 ```
 Pulse any element, and repeat animation:
 ```Javascript
-pulse.animateElement(element, 2000, 3); //pulse this element for 2s, 3 times
+pulse.animateElement(element, 2000, 3); //pulse this element for 2s, repeat 3 times.
 ```
 Pulse any element with callback:
 ```Javascript
-pulse.animateElement(element, 2000, 1, alert); //pulse this element for 2s, 1 times then alert
+pulse.animateElement(element, 2000, 1, alert); //pulse this element for 2s, repeat 1 times, then alert.
 ```
 Pulse any element with callback and parameters:
 ```Javascript
-pulse.animateElement(element, 2000, 1, ()=>alert('hi')); //pulse this element for 2s, 1 times then alert. 
+pulse.animateElement(element, 2000, 1, ()=>alert('hi')); //pulse this element for 2s, repeat 1 times, then alert. 
 ```
 Cancel pulse on a currently animated element:
 ```Javascript
